@@ -127,8 +127,7 @@ header {
 #main h2 {
     color: #5c340c;
     font-family: 'Parisienne', cursive;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin: 90px 0;
     font-size: 60px;
 }
 
