@@ -1,0 +1,305 @@
+/* Général */
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #ffffff;
+	border-top: 8px solid #a10684;
+	
+}
+
+	/* Header */
+
+header {
+    margin: 0;
+    padding: 0;
+	background-color: #ebe3ec;
+}
+
+#tittle-intro h1 {
+	font-family: 'Courgette', cursive;
+	color: #5c340c;
+	text-align: right;
+	padding-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 90px;
+	letter-spacing: 10px;
+}
+
+#tittle-intro .percent {
+	font-size: 400%;
+}
+
+.text-intro p {
+	margin-bottom: 18px;
+	color: #5c340c;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.text-intro span i {
+	color: #a10684;
+	font-size: 20px;
+	text-align: center;
+}
+
+	/* NAV-BAR */
+
+.navbar {
+	padding: 0px 15px;
+	background-color: #f1f1f1;
+	border-top: 1px solid #a10684;
+	border-bottom: 1px solid #a10684;
+}
+
+#navbarCollapse a {
+	color: #a10684!important;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 0 auto;
+
+}
+
+#navbarCollapse .nav-link:hover {
+	color: #ff3346!important;
+}
+
+#menu-deroulant a:hover{
+	color: #ff3346!important;
+}
+
+#menu-deroulant, #menu-deroulant ul {
+	padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu-deroulant li {
+	/* on place les liens du menu horizontalement */
+	display: inline-block;
+}
+
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#menu-deroulant ul li a {
+	padding: 5px 8px;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	text-align: left;
+	background-color: #f1f1f1; 
+}
+
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+}
+
+	/* MAIN */
+
+#main .container {
+	max-width: 85%;
+}
+
+#titreTop h2 {
+	margin: 90px auto 50px;
+	text-align: center;
+	color: #5c340c;
+	font-size: 70px;
+	font-family: 'Parisienne', cursive;
+}
+
+#main h5 {
+	margin-top: 20px;
+	font-family: 'Handlee', cursive;
+	font-size: 25px;
+}
+
+#main img {
+	border: 2px solid #5c340c;
+	border-radius: 5px;
+}
+
+#main a {
+	color: #5c340c;
+}
+
+#main a:hover {
+	color: #a10684;
+	text-decoration: none;
+}
+
+#main img:hover {
+	border: 3px solid #a10684;
+}
+
+
+	/* social */
+
+#social {
+	margin-top: 40px;
+}
+
+#social .center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	margin: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.icon {
+	width: 65px;
+	height: 65px;
+	border-radius: 50px;
+	margin: 30px;
+	transition: all .5s;
+}
+
+.icon:nth-child(1) {
+	color: #1877f2;
+	filter: drop-shadow(0 0 3px #a10684);
+}
+
+.icon:nth-child(2) {
+	color: #a10684;
+	filter: drop-shadow(0 0 3px #1877f2);
+}
+
+.icon:nth-child(3) {
+	color: #ff3346;
+	filter: drop-shadow(0 0 3px #ff3346);
+}
+
+.icon:nth-child(1):hover {
+	box-shadow: 0 0 0 6px #a10684;
+}
+
+.icon:nth-child(2):hover {
+	box-shadow: 0 0 0 6px #1877f2;
+}
+
+.icon:nth-child(3):hover {
+	box-shadow: 0 0 0 6px #ff3346;
+}
+
+	/* NEWSLETTER  */
+
+#newsletter {
+	margin: 20px 0 20px;
+}
+
+#newsletter span i {
+	color: #a10684;
+	font-size: 20px;
+	text-align: center;
+}
+
+#newsletter p {
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: #5c340c;
+}
+
+	/* FORMULAIRE */
+
+form {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.form-goup input {
+	padding: 5px 0;
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	width: 100%;
+	font-family: 'Arial';
+	border: 1px solid;
+}
+
+.form-goup #submit {
+	margin-top: 24px;
+	width: 100%;
+	padding: 5px 0;
+	border-radius: 3px;
+	background-color: #f1f1f1;
+}
+
+.form-goup #submit:hover {
+	background-color: #582900;
+	color: #fff;
+	transition: 0.4s ease-in-out;
+}
+
+	/* FOOTER */
+
+.coul {
+	color: #582900;
+}
+
+.footer i {
+    font-size: 40px;
+    margin: 30px 0 20px;
+    color: #5c340c;
+    height: 30px;
+}
+
+.footer i:hover {
+    font-size: 50px;
+    transition: 0.3s ease-in-out;
+    color: #a10684;
+}
+
+
+/* VERSION DESKTOP */
+@media screen and (min-width:1025px) {
+	.container {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	section {
+		
+	}
+
+	aside {
+		display: inline-block;
+		vertical-align: center;
+		width: 30%;
+	}
+}
