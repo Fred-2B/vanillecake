@@ -1,4 +1,4 @@
-	/* Général */
+/* Général */
 html {
 	scroll-behavior: smooth;
 }
@@ -14,13 +14,13 @@ body {
     padding: 0;
     height: 100%;
     background: #ffffff;
-    border-top: 8px solid #a10684;
+	border-top: 8px solid #a10684;
 }
 
 	/* Header */
 
 header {
-	background-color: #ebe3ec;
+    background-color: #ebe3ec;
     margin: 0;
     padding: 0;
 }
@@ -44,7 +44,7 @@ header {
 }
 
 .text-intro p {
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 	color: #5c340c;
 	font-size: 20px;
 	font-family: 'Nunito', sans-serif;
@@ -107,7 +107,7 @@ header {
     text-decoration: none;
     display: block;
 	text-align: left;
-	background-color: #f1f1f1;
+	background-color: #f1f1f1; 
 }
 
 #menu-deroulant ul {
@@ -123,51 +123,121 @@ header {
     left: auto;
 }
 
-	/* MAIN */
+	/* MAIN TITRE*/
 
 #main .container {
 	max-width: 85%;
 }
 
-#titreTop h2 {
-	margin: 90px auto 50px;
-	text-align: center;
+#main h2 {
 	color: #5c340c;
-	font-size: 70px;
 	font-family: 'Parisienne', cursive;
+	margin-top: 90px;
+	margin-bottom: 60px;
+	font-size: 60px;
 }
 
-#main h5 {
-	margin-top: 20px;
+.imgTop img {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
+
+.card {
+	border-radius: 4px;
+	background-color: #f1f1f1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #a10684;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#main2 h3 {
 	font-family: 'Handlee', cursive;
-	font-size: 25px;
+	margin-bottom: 15px;
+	color: #5c340c;
 }
 
-#main img {
-	border: 2px solid #5c340c;
-	border-radius: 5px;
+#images1 img {
+	width: 30%;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-#main img {
+#main3 h3 {
+	font-family: 'Handlee', cursive;
+	margin-bottom: 15px;
+	color: #5c340c;
+}
+
+#main3 span i {
+	font-size: 20px;
+	color: #a10684;
+	margin-right: 10px;
+	margin-left: 3px;
+}
+
+#images3 {
+	padding-top: 100px;
+	width: 100%;
+}
+
+#images3 img {
 	border: 3px solid #5c340c;
-	border-radius: 5px;
+	border-radius: 4px;
 	transition: 0.5s ease-in-out;
 }
 
-#main a {
-	color: #5c340c;
-	text-decoration: none;
-}
-
-#main img:hover {
-	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
+#images3 img:hover {
 	border: 3px solid #a10684;
+	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
 }
 
-	/* social */
-
-#social {
+#images2 img {
 	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#main4 .container {
+	width: 70%;
+}
+
+#main4 .about {
+	margin-top: 20px;
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 40px;
+}
+
+#main4 .gras {
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Handlee', cursive;
+	color: #5c340c;
+	font-size: 1.8rem;
+}
+
+#main4 .avatar img {
+	border-radius: 100px;
+	width: 28%;
+	border: 2px solid #a10684;
+}
+
+.crown i {
+	font-size: 3rem;
+	color: #c8ad7f;
+}
+
+   /* social */
+   
+ #social {
+	margin-top: 20px;
 }
 
 #social .center {
@@ -223,33 +293,31 @@ header {
 	box-shadow: 0 0 0 6px #ff3346;
 }
 
-	/* NEWSLETTER  */
-
-#newsletter {
-	margin: 20px 0 20px;
-}
-
-#newsletter span i {
-	color: #a10684;
-	font-size: 20px;
-	text-align: center;
-}
-
-#newsletter p {
-	font-size: 20px;
-	font-family: 'Nunito', sans-serif;
-	color: #5c340c;
-}
-
 	/* FORMULAIRE */
+
+#formulaire {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 
 form {
 	max-width: 1100px;
 	margin: 0 auto;
 }
 
-.form-goup input {
-	padding: 5px 0;
+#formulaire .title {
+	font-family: 'Handlee', cursive;
+	color: #5c340c;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+#formulaire em {
+	color: #ff0000;
+}
+
+#formulaire input {
+	padding: 8px 0;
 	background-color: #f1f1f1;
 	border-radius: 3px;
 	width: 100%;
@@ -257,15 +325,22 @@ form {
 	border: 1px solid;
 }
 
-.form-goup #submit {
-	margin-top: 24px;
+#formulaire textarea {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	border: 1px solid;
 	width: 100%;
-	padding: 5px 0;
+}
+
+#formulaire #submit {
+	margin-top: 8px;
+	width: 100%;
+	padding: 8px 0;
 	border-radius: 3px;
 	background-color: #f1f1f1;
 }
 
-.form-goup #submit:hover {
+#formulaire #submit:hover {
 	background-color: #582900;
 	color: #fff;
 	transition: 0.4s ease-in-out;
@@ -286,9 +361,10 @@ form {
 
 .footer i:hover {
     font-size: 50px;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
     color: #a10684;
 }
+
 
 /* VERSION DESKTOP */
 @media screen and (min-width:1025px) {
@@ -297,9 +373,6 @@ form {
 		margin: 0 auto;
 	}
 
-	section {
-		
-	}
 
 	aside {
 		display: inline-block;

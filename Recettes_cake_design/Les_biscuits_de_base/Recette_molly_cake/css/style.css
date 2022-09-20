@@ -35,6 +35,10 @@ header {
 	letter-spacing: 10px;
 }
 
+#tittle-intro span .far {
+	margin-left: -12px;
+}
+
 #tittle-intro .percent {
 	font-size: 400%;
 }
@@ -208,14 +212,16 @@ header {
 }
 
 #imageCake img {
-	border: 2px solid #5c340c;
+	border: 3px solid #5c340c;
 	width: 220px;
 	height: 120px;
 	border-radius: 100px / 60px;
+	transition: 0.5s ease-in-out;
 }
 
 #imageCake img:hover {
 	border: 3px solid #a10684;
+	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
 }
 
 #imageCake h4 {
@@ -231,12 +237,14 @@ header {
 }
 
 #images3 img {
-	border: 2px solid #5c340c;
+	border: 3px solid #5c340c;
 	border-radius: 4px;
+	transition: 0.5s ease-in-out;
 }
 
 #images3 img:hover {
 	border: 3px solid #a10684;
+	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
 }
 
 #main4 .about {

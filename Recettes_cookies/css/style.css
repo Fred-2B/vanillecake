@@ -28,12 +28,16 @@ header {
 
 #tittle-intro h1 {
 	font-family: 'Courgette', cursive;
-	color: #5c340c;
+	color: #a10684;
 	text-align: right;
 	padding-top: 50px;
 	margin-bottom: 50px;
 	margin-right: 90px;
 	letter-spacing: 10px;
+}
+
+#tittle-intro span .far {
+	margin-left: -12px;
 }
 
 #tittle-intro .percent {
@@ -123,7 +127,7 @@ header {
 	/* MAIN */
 
 #main .container {
-	max-width: 85%;
+	max-width: 100%;
 }
 
 #titreTop h2 {
@@ -145,16 +149,19 @@ header {
 	border-radius: 5px;
 }
 
-#main a {
-	color: #5c340c;
+#main img {
+	border: 3px solid #5c340c;
+	border-radius: 5px;
+	transition: 0.5s ease-in-out;
 }
 
-#main a:hover {
-	color: #a10684;
+#main a {
+	color: #5c340c;
 	text-decoration: none;
 }
 
 #main img:hover {
+	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
 	border: 3px solid #a10684;
 }
 
