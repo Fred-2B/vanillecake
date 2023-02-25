@@ -21,77 +21,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="shortcut icon" href="img/logo2.jpg">
     <link rel="stylesheet" href="css/style.css">
-
-	<style> 
-	body { 
-		animation: fadeInAnimation ease 2s; 
-		animation-fill-mode: forwards; 
-		animation-iteration-count: 1; 
-	} 
-	@keyframes fadeInAnimation { 
-	0% 
-	{ 
-	opacity: 0; 
-	} 
-	100% { 
-	opacity: 1; 
-	} 
-	} 
-	</style>
-
+    <link rel="shortcut icon" href="img/logo2.jpg">
 </head>
-<body id="top" data-offset="60">
+<body>
 
 	<!-- HEADER -->
+    <header>
+        <div id="logo">
+			<div class="title">
+				<h1 class="percent text-3d"><span class="space" style="font-size:180%;">V</span>anille <span class="space2" style="font-size:170%;">C</span>ake<span style="font-size: 20%;"></span></h1>
+			</div>
+		</div>
+    </header>
 
-	<header id="img-header">
-        <div class="container">
-        
-            <div id="tittle-intro">
-                <h1 class="percent"><span style="font-size:150%;">V</span>anille <span style="font-size:150%;">C</span>ake<span style="font-size: 20%;"><i class="far fa-registered"></i></span></h1>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="text-intro col text-center">
-                        <p><span class="pr-3"><i class="fas fa-cheese"></i></span> Le blog de pâtisserie pour gourmands<span class="pl-3"><i class="fas fa-birthday-cake"></i></span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</header>
-
-        <!-- NAV-BAR -->
-
-	<nav class="navbar sticky-top navbar-expand-md" id="main-nav">
+    <!-- NAV-BAR -->
+    <nav class="navbar sticky-top navbar-expand-md" id="main-nav">
 		<div class="container">
            <button class="navbar-toggler bg-light" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <a href="#" class="nav-icon" aria-label="page d'accueil" aria-current="page">
+				<img src="img/logoV3web.png" alt="icon">
+			</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav m-auto" id="menu-deroulant">
                     <li class="nav-item mr-3">
                         <a href="../../index.html" class="nav-link">Accueil</a>
                     </li>
-
                     <li class="nav-item ml-3 mr-3">
 						<a href="#" class="nav-link">Recettes</a>
 						<ul>
 							<li><a href="#">Gateaux</a></li>
 							<li><a href="#">Entremets</a></li>
-							<li><a href="#">Tartes</a></li>
+							<li><a href="../../Tartes/index.html">Tartes</a></li>
 							<li><a href="../../Recettes_cake_design/index.html">Cakes Design</a></li>
-							<li><a href="#">Mignardises</a></li>
-							<li><a href="#">Viennoisseries</a></li>
 							<li><a href="../../Recettes_cookies/index.html">Cookies</a></li>
 							<li><a href="../../Recettes_healthy/index.html">Healthy</a></li>
-							<li><a href="#">Pâtes à tartiner</a></li>
 						</ul>
 					</li>
-						
-                    <li class="nav-item ml-3 mr-3">
+					<li class="nav-item ml-3 mr-3">
 						<a href="#" class="nav-link">Techniques de base</a>
 						<ul>
 							<li><a href="#">Les pâtes</a></li>
@@ -99,16 +68,13 @@
 							<li><a href="#">Les biscuits</a></li>
 						</ul>
 					</li>
-						
-                    <li class="nav-item ml-3 mr-3">
+					<li class="nav-item ml-3 mr-3">
                         <a href="#" class="nav-link">Mes Adresses</a>
                     </li>
-
                     <li class="nav-item ml-3 mr-3">
     					<a href="../../A_Propos/index.html" class="nav-link">A Propos</a>
   					</li>
-                    
-  					<li class="nav-item ml-3">
+                    <li class="nav-item ml-3">
     					<a href="#formulaire" class="nav-link">Contact</a>
   					</li>
                 </ul>
@@ -117,20 +83,18 @@
     </nav>
 
     <!-- MAIN TITRE -->
-
     <section id="main">
         <div class="container text-center">
             <div class="col-md-12">
                 <h2 class="">Cookies Extra Moelleux</h2>
                 <div class="imgTop">
-                <img src="img/cook_planl.jpg" alt="cookie" class="img-fluid mx-auto d-block">
+                <img src="img/cookie01.jpg" alt="cookie" class="img-fluid mx-auto d-block">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- MAIN TEXTE -->
-
     <div id="main1">
     	<div class="container">
     		<div class="row">
@@ -179,22 +143,15 @@
     </section>
 
     <!-- SOCIAL -->
-
-    <div id="social1">
+    <div id="social">
         <div class="main center">
-
             <div class="icon center">
-             <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" class="social"><img src="../../img/insta.png" alt="social"><div class="fond_insta"></div></a>
+             <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" class="social"><img src="../../img/insta.png" alt="social" title="insta Alex"><div class="fond_insta"></div></a>
             </div>
 
             <div class="icon center">
-            <a href="https://www.facebook.com" target="_blank" class="social"><img src="../../img/face.png" alt="social"><div class="fond_face"></div></a>
+            <a href="https://www.facebook.com" target="_blank" class="social"><img src="../../img/face.png" alt="social" title="facebook Alex"><div class="fond_face"></div></a>
             </div>
-            
-            <div class="icon center">
-             <a href="https://www.pinterest.fr/" target="_blank" class="social"><img src="../../img/pinte.png" alt="social"><div class="fond_pinte"></div></a>
-            </div>
-            
         </div>
     </div>
 
@@ -238,13 +195,6 @@
             				<p>Prenez votre temps pour faire un beau beurre <a href="#" style="text-decoration:none; color:red" data-toggle="tooltip" data-placement="top" title="C’est un beurre mou qui sera travaillé à la spatule ou au fouet jusqu’à l’obtention d’une texture crémeuse comme une « pommade ». Si votre beurre à du mal à se détendre vous pouvez le passer quelques secondes au-dessus d’un bain-marie tout en fouettant pour qu’il ne se liquéfie pas."><i>pommade</i></a>, cela falicitera l'incorporation du sucre et de tout le reste de la préparation.</p>
         				</div>
     				</div>
-
-                    <section id="images3">
-                        <div class="col-12">
-                            <h3>Suivez-moi sur instagram</h3>   
-                            <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" title="insta Alex"><img src="../../img/insta2.png" alt="social" class="img-fluid"></a> 
-                        </div>
-                    </section>
                 </div>
     		</div>
     	</div>
@@ -255,7 +205,7 @@
             <div class="row justify-content-center">
                 <div class="col md-12">
                     <div class="row">  
-                    <img src="img/cookie_vu.jpg" alt="cookie" class="img-fluid">
+                    <img src="img/cookie02.jpg" alt="cookie" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -265,7 +215,7 @@
     <div id="main4">
         <div class="container">
             <div class="row">
-                <div class="col md-10">
+                <div class="about-card">
                     <div class="card">
                         <p class="about">Ne vous fiez pas à la consistance en sortant vos cookies du four. Ils seront très mou et vous ne pourrez pas les enlever de la plaque c’est normal. Ils se solidifieront au bout de quelques minutes en refroidissant.</p><br>
                         <p class="gras"><b><i>Bonne dégustation !!!</i></b><br>
@@ -277,97 +227,63 @@
     </div>
 
     <!-- FORMULAIRE -->
-
-    <div id="formulaire">
-        <div class="container">
-            <div class="row">
-                <div class="col md-6">
-                <div class="title text-center">Laisser un commentaire</div>
-                </div>
-            </div>
+    <section id="contact">
+        <div class="titre-form">
+            <h3>Laissez moi un commentaire</h3>
         </div>
+        <form action="mailto:vanillecake@outlook.com" method="POST" enctype="text/plain" id="contact" accept-charset="UTF-8">
+            <div class="container form-goup">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                        <label for="nom"></label>
+                        <input type="text" name="nom" id="nom" required placeholder=" Nom" maxlength="20">
+                        </div>
 
-        <form action="#" method="post" accept-charset="UTF-8">
+                        <div>
+                        <label for="prenom"></label>
+                        <input type="text" name="prenom" id="prenom" required placeholder=" Prénom" maxlength="20">
+                        </div>
+                    </div>
 
-        <div class="container">
-            <div class="row">
-            <div class="col md-6">
-
-                <div>
-                 <label for="nom" class="m-0">Nom <em>*</em></label>
-                   <input type="text" name="nom" id="nom" required maxlength="50">
-                </div>
-                
-                <div class="mt-3">
-                 <label for="email" class="m-0">E-mail <em>*</em></label>
-                   <input type="email" name="email" id="email" required placeholder=" mail@domaine.com" maxlength="50">
-                </div>
-
-                <div class="mt-3">
-                 <label for="site" class="m-0">Site</label>
-                   <input type="text" name="site" id="site" pattern="^http:\/\/(.*)$" placeholder=" http://">
-                </div>
-               
-            </div>
-            
-                <div class="col md-6">
-                    <label for="Textarea" class="m-0">Commentaire</label>
-                    <textarea rows="6" id="Textarea"></textarea>
-
-                    <div class="">
-                    <input type="submit" value="Soumettre" id="submit">
+                    <div class="col">
+                        <div class="">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" required placeholder=" mail@domaine.com" maxlength="20">
+                            <div class="">
+                                <input type="submit" value="Soumettre" id="submit">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col md-6 text-center mt-1">
-                 <div class="info font-weight-light">Votre adresse de messagerie ne sera pas publiée. Champs obligatoires <em>*</em></div>
-                </div>
-            </div>
-        </div>
+            <div class="info">Votre adresse de messagerie ne sera pas publiée</div>
         </form>
-     </div>
+    </section>
 
      <!-- SOCIAL -->
-
-    <div id="social2">
+    <div id="social">
         <div class="main center">
-
             <div class="icon center">
-             <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" class="social" title="insta Alex"><img src="../../img/insta.png" alt="social"><div class="fond_insta"></div></a>
+                <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" class="social" title="insta Alex"><img src="../../img/insta.png" alt="social"><div class="fond_insta"></div></a>
             </div>
 
             <div class="icon center">
-            <a href="https://www.facebook.com" target="_blank" class="social"><img src="../../img/face.png" alt="social" title="facebook Alex"><div class="fond_face"></div></a>
+                <a href="https://www.facebook.com" target="_blank" class="social"><img src="../../img/face.png" alt="social" title="facebook Alex"><div class="fond_face"></div></a>
             </div>
-            
-            <div class="icon center">
-             <a href="https://www.pinterest.fr/" target="_blank" class="social"><img src="../../img/pinte.png" alt="social"><div class="fond_pinte"></div></a>
-            </div>
-            
         </div>
     </div>
 
 	<!-- FOOTER -->
-
-	<div class="footer text-center">
-		<a href="#top">
-	 		<span><i class="fas fa-chevron-circle-up" title="haut de page"></i></span>
-	 	</a>
-
-	   	<div class="container">
-	   		<div class="row">
-	    		<div class="col">
-	      			<p class="font-weight-light pt-3">Copyright &copy;
-	      		 	<span id="year"></span><span class="coul"> vanillecake.fr</span></p>
-	      		 	<p class="font-weight-light"><small>Sauf mention contraire, l'ensemble des recettes, textes et visuels (photos, illustrations, graphismes) présents sur ce site sont la propriété exclusive d'Alexandra. Il est strictement interdit de les copier et de les redistribuer.</small></p>
-				</div>
-	    	</div>
+    <section class="footer">
+		<div class="container">
+	   		<div class="">
+	    		<p class="section-title">Copyright &copy; <script> document.write(new Date().getFullYear());</script>
+	      		<a href="mailto:vanillecake@outlook.com" target="_blank"><span class="coul">vanillecake.fr</span></a></p>
+	      		<p class="text1">Sauf mention contraire, l'ensemble des recettes, textes et visuels (photos, illustrations, graphismes) présents sur ce site sont la propriété exclusive d'Alexandra.<br>Il est strictement interdit de les copier et de les redistribuer.</p>
+			</div>
 	   	</div>
-	</div>
+	</section>
 
     <!-- Script Jquery  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -381,9 +297,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-    <script>
-	$('#year') .text(new Date().getFullYear());
-	</script>
 
     <!-- INFO BULLE -->
     <script>

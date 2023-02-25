@@ -23,52 +23,27 @@
     <!-- Custom CSS -->
     <link rel="shortcut icon" href="img/logo2.jpg">
     <link rel="stylesheet" href="css/style.css">
-
-	<style> 
-	body { 
-		animation: fadeInAnimation ease 2s; 
-		animation-fill-mode: forwards; 
-		animation-iteration-count: 1; 
-	} 
-	@keyframes fadeInAnimation { 
-	0% 
-	{ 
-	opacity: 0; 
-	} 
-	100% { 
-	opacity: 1; 
-	} 
-	} 
-	</style>
-
 </head>
-
-<body id="top" data-offset="60">
-
+<body>
 	<!-- HEADER -->
-
 	<header>
-		<div id="logo">
-			<div class="container">
-				<img src="img/logoV3web.png" alt="logo vanille cake">
+        <div id="logo">
+			<div class="title">
+				<h1 class="percent text-3d"><span class="space" style="font-size:180%;">V</span>anille <span class="space2" style="font-size:170%;">C</span>ake<span style="font-size: 20%;"></span></h1>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row">
-				<div class="text-intro col text-center">
-					<p><span class="pr-3"><i class="fas fa-cheese"></i></span> Le blog de pâtisserie pour gourmands<span class="pl-3"><i class="fas fa-birthday-cake"></i></span></p>
-				</div>
-			</div>
-		</div>
-	</header>
-
+    </header>
+	
 	<!-- NAV-BAR -->
-
 	<nav class="navbar sticky-top navbar-expand-md" id="main-nav">
+		
         <div class="container">
            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+			<a href="#" class="nav-icon" aria-label="page d'accueil" aria-current="page">
+				<img src="img/logoV3web.png" alt="icon">
+			</a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav m-auto" id="menu-deroulant">
                     <li class="nav-item mr-3">
@@ -80,13 +55,10 @@
 						<ul>
 							<li><a href="">Gateaux</a></li>
 							<li><a href="">Entremets</a></li>
-							<li><a href="">Tartes</a></li>
+							<li><a href="Tartes/index.html">Tartes</a></li>
 							<li><a href="Recettes_cake_design/index.html">Cakes Design</a></li>
-							<li><a href="">Mignardises</a></li>
-							<li><a href="">Viennoisseries</a></li>
 							<li><a href="Recettes_cookies/index.html">Cookies</a></li>
 							<li><a href="Recettes_healthy/index.html">Healthy</a></li>
-							<li><a href="">Pâtes à tartiner</a></li>
 						</ul>
 					</li>
 						
@@ -114,144 +86,162 @@
     </nav>
 
     <!-- MAIN CONTENT -->
+	<!-- Slider -->
+    <section class="slide">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="img/img-slide/img11.jpg" alt="img01">
+                <div class="subtitle-slide">
+                    Cookies extra moelleux 
+                </div>
+            </div>
+            
+            <div class="mySlides fade">
+                <img src="img/img-slide/img07.jpg" alt="img02">
+                <div class="subtitle-slide">
+                    Pancake banane
+                </div>
+            </div>
 
-   	<section id="main">
-   		<div class="container">
-   			<div class="row">
-   				<div class="group-img col-md-8">
-   					<div class="row justify-content-around">
-						<a href="Recettes_de_fêtes/Recette_galette_amande/index.html"><img src="img/gat20.jpg" alt="galette" width="370" height="270" class="pic"><div class="notes text-center"><h5>Galette des rois à l'amande</h5></div></a>
+            <div class="mySlides fade">
+                <img src="img/img-slide/img03.jpg" alt="img03">
+                <div class="subtitle-slide">
+                    Cookies chocolat
+                </div>
+            </div>
 
-						<a href="Recettes_cookies/index.html"><img src="img/cookie01.jpg" alt="cookie" width="370" height="270" class="pic"><div class="notes text-center"><h5>Cookies</h5></div></a>
-					</div>
+            <div class="mySlides fade">
+                <img src="img/img-slide/img04.jpg" alt="img04">
+                <div class="subtitle-slide">
+                    Galette a l'amande
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div class="row justify-content-around mt-2">
-						<a href="Recettes_healthy/index.html"><img src="img/panecake01.jpg" alt="cake" width="370" height="270" class="pic"><div class="notes text-center"><h5>Healthy</h5></div></a>
-
-						<a href="Recettes_cake_design/Creations_cake_design/index.html"><img src="img/gat04.png" alt="gateau" width="370" height="270" class="pic"><div class="notes text-center"><h5>Créations cake design </h5></div></a>
-					</div>
-
-					<div class="row justify-content-around mt-2">
-						<a href="#"><img src="img/gat05.jpg" alt="gateau" width="370" height="270" class="pic"><div class="notes text-center"><h5>Pop cakes</h5></div></a>
-
-						<a href="#"><img src="img/gat06.jpg" alt="gateau" width="370" height="270" class="pic"><div class="notes text-center"><h5>Choux de Noël</h5></div></a>
-					</div>
-   				</div>
-	<!-- ASIDE -->
-				<div class="col-md-4 tittle2" id="aside1">
-   					<h3>Recettes par thème</h3>
-   						<ul style="list-style-type:square; font-size: 160%; line-height: 2.5;">
-							<li><a href="Recettes_cake_design/index.html">Recettes cake design</a></li>
-							<li><a href="">Recettes aux chocolats</a></li>
-							<li><a href="Recettes_de_fêtes/index.html">Recettes de fêtes</a></li>
-						</ul>
-	<!-- ASIDE SOCIAL-->
-					<div class="tittle3" id="aside2">
-						<h3>Suivez-moi sur instagram</h3>
-						<a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" title="insta Alex">
-						<img src="img/insta2.png" alt="social" width="320" height="250" class="img-fluid mx-auto d-block pic"></a>
-					</div>
-	<!-- ASIDE A PROPOS -->
-					<div class="tittle4" id="aside3">
-							<h3>A propos ...</h3>
-						<div class="row justify-content-around">
-							<img src="img/alex1.jpg" alt="image alex" width="160" height="120" class="ml-2"/>
-							<img src="img/alex2.jpg" alt="image alex" width="160" height="120" />
-						</div>
-							<p>Passionnée par le chocolat,<br> et plus généralement de pâtisserie,<br> je partage avec vous<br> mes recettes sucrées et gourmandes...</p>
-						<div class="lien">
-							<a href="A_Propos/index.html">En savoir plus ...</a>
-						</div>
-					</div>
-   				</div>
-			</div>
-   		</div>
-   	</section>
+	<!-- Gallery img -->
+	<div class="title-block1">
+        <h2>Un petit aperçu...</h2>
+    </div>
+    <section class="gallerie-img">
+        <div class="grid">
+            <div class="item item-2">
+                <img src="img/img02.jpg" alt="">
+                <div class="text">Crèpes chocolat</div>
+            </div>
+            <div class="item item-3">
+                <img src="img/img03.jpg" alt="">
+                <div class="text">Cookies chocolat</div>
+            </div>
+            <div class="item item-4">
+                <img src="img/img04.jpg" alt="">
+                <div class="text">Galette à l'amande</div>
+            </div>
+            <div class="item item-5">
+                <img src="img/img05.jpg" alt="">
+                <div class="text">Crème chocolat</div>
+            </div>
+            <div class="item item-6">
+                <img src="img/img06.jpg" alt="">
+                <div class="text">Cake design</div>
+            </div>
+            <div class="item item-7">
+                <img src="img/img07.jpg" alt="">
+                <div class="text">Panecake banane</div>
+            </div>
+            <div class="item item-8">
+                <a href="Tartes/Tarte_au_citron/index.html">
+                    <img src="img/img08.jpg" alt="image tarte citron">
+                    <div class="text">Tarte citron meringuée</div>
+                </a>
+            </div>
+            <div class="item item-9">
+                <img src="img/img09.jpg" alt="">
+                <div class="text">Tarte aux fruits</div>
+            </div>
+            <div class="item item-10">
+                <img src="img/img10.jpg" alt="">
+                <div class="text">Moelleux chocolat</div>
+            </div>
+            <div class="item item-13">
+                <img src="img/img13.jpg" alt="">
+                <div class="text">Rocher coco</div>
+            </div>
+            <div class="item item-15">
+                <a href="Recettes_cookies/Cookies_extra_moelleux/index.html">
+                    <img src="img/img15.jpg" alt="">
+                    <div class="text">Cookies extra moelleux</div>
+            </a>
+            </div>
+            <div class="item item-16">
+                <img src="img/img16.jpg" alt="">
+                <div class="text">Cake design</div>
+            </div>
+            <div class="item item-20">
+                <img src="img/img20.jpg" alt="">
+                <div class="text">Fraisier</div>
+            </div>
+        </div>
+    </section>
 
    	<!-- SOCIAL ICONES -->
-
-   	<div id="social">
-        <div class="main center">
-
+	<section id="social">
+        <div class="center">
             <div class="icon center">
-             <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" class="social" title="insta Alex"><img src="img/insta.png" alt="social"><div class="fond_insta"></div></a>
+            <a href="https://www.instagram.com/alex_vanille_cake/" target="_blank" class="social" title="insta Alex"><img src="img/insta.png" alt="social"><div class="fond_insta"></div></a>
             </div>
 
             <div class="icon center">
-            <a href="https://www.facebook.com" target="_blank" class="social"><img src="img/face.png" alt="social" title="facebook Alex"><div class="fond_face"></div></a>
+            <a href="https://www.facebook.com" target="_blank" class="social"><img src="img/face.png" alt="social" title=""><div class="fond_face"></div></a>
             </div>
-            
-            <div class="icon center">
-             <a href="https://www.pinterest.fr/" target="_blank" class="social"><img src="img/pinte.png" alt="social"><div class="fond_pinte"></div></a>
-            </div>
-            
         </div>
-    </div>
+    </section>
 
-   	<!-- NEWSLETTER -->
-   
-	<div id="newsletter" class="text-center">
-		<div class="container">
-            <p><span class="pr-3"><i class="fas fa-bread-slice"></i></span>Restez informés des nouvelles recettes publiées sur le blog !<span class="pl-3"><i class="fas fa-candy-cane"></i></span></p>
+    <!-- FORMULAIRE -->  
+	<section id="contact">
+        <div class="titre-form">
+            <h3>Laissez moi un commentaire</h3>
         </div>
-    </div>
+        <form action="mailto:vanillecake@outlook.com" method="POST" enctype="text/plain" id="contact" accept-charset="UTF-8">
+            <div class="container form-goup">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                        <label for="nom"></label>
+                        <input type="text" name="nom" id="nom" required placeholder=" Nom" maxlength="20">
+                        </div>
 
-    <!-- FORMULAIRE -->
-    
-		<form action="mailto:vanillecake@outlook.com" method="POST" enctype="text/plain" id="contact" accept-charset="UTF-8">
-			<div class="container form-goup">
-				<div class="row">
-				<div class="col md-6">
-					<div>
-                    <label for="nom"></label>
-                    <input type="text" name="nom" id="nom" required placeholder=" Nom" maxlength="20">
+                        <div>
+                        <label for="prenom"></label>
+                        <input type="text" name="prenom" id="prenom" required placeholder=" Prénom" maxlength="20">
+                        </div>
                     </div>
 
-                    <div>
-                    <label for="prenom"></label>
-                    <input type="text" name="prenom" id="prenom" required placeholder=" Prénom" maxlength="20">
-                    </div>
-				</div>
-
-				<div class="col md-6">
-				<div class="">
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" required placeholder=" mail@domaine.com" maxlength="20">
-
-                    <div class="">
-                    <input type="submit" value="Soumettre" id="submit">
+                    <div class="col">
+                        <div class="">
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" required placeholder=" mail@domaine.com" maxlength="20">
+                            <div class="">
+                                <input type="submit" value="Soumettre" id="submit">
+                            </div>
+                        </div>
                     </div>
                 </div>
-				</div>
-				</div>
-			</div>
-			<div class="container">
-            <div class="row">
-                <div class="col md-6 text-center mt-1">
-	                <div class="info font-weight-light">Votre adresse de messagerie ne sera pas publiée.
-	                </div>
-                </div>
             </div>
-            </div>
-	    </form>   
+            <div class="info">Votre adresse de messagerie ne sera pas publiée</div>
+        </form>
+    </section>
 
 	<!-- FOOTER -->
-
-	<div class="footer text-center">
-		<a href="#top">
-	 		<span><i class="fas fa-chevron-circle-up" title="Haut de page"></i></span>
-	 	</a>
-
-	   	<div class="container">
-	   		<div class="row">
-	    		<div class="col">
-	      			<p class="section-title pt-3 font-weight-light">Copyright &copy;
-	      		 	<span id="year"></span><span class="coul"> vanillecake.fr</span></p>
-	      		 	<p class="font-weight-light"><small>Sauf mention contraire, l'ensemble des recettes, textes et visuels (photos, illustrations, graphismes) présents sur ce site sont la propriété exclusive d'Alexandra. Il est strictement interdit de les copier et de les redistribuer.</small></p>
-				</div>
-	    	</div>
+	<section class="footer">
+		<div class="container">
+	   		<div class="">
+	    		<p class="section-title">Copyright &copy; <script> document.write(new Date().getFullYear());</script>
+	      		<a href="mailto:vanillecake@outlook.com" target="_blank" title="contact E-mail"><span class="coul">vanillecake.fr</span></a></p>
+	      		<p class="text1">Sauf mention contraire, l'ensemble des recettes, textes et visuels (photos, illustrations, graphismes) présents sur ce site sont la propriété exclusive d'Alexandra.<br>Il est strictement interdit de les copier et de les redistribuer.</p>
+			</div>
 	   	</div>
-	</div>	
+	</section>
 
 
 	<!-- Script Jquery  -->
@@ -266,9 +256,8 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-    <script>
-	$('#year') .text(new Date().getFullYear());
-	</script>
+    <!-- Main Js -->
+    <script src="js/main.js"></script>
 
 </body>
 
