@@ -377,21 +377,12 @@ h2 {
 	filter: drop-shadow(0 0 3px #1877f2);
 }
 
-.icon:nth-child(3) {
-	color: #ff3346;
-	filter: drop-shadow(0 0 3px #ff3346);
-}
-
 .icon:nth-child(1):hover {
 	box-shadow: 0 0 0 6px #a10684;
 }
 
 .icon:nth-child(2):hover {
 	box-shadow: 0 0 0 6px #1877f2;
-}
-
-.icon:nth-child(3):hover {
-	box-shadow: 0 0 0 6px #ff3346;
 }
 
 	/* FORMULAIRE */
