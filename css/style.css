@@ -149,7 +149,7 @@ h2 {
 }
 
 	/* MAIN CONTENT */
-/* Slider */
+	/* Slider */
 .slide {
     display: grid;
     grid-template-columns: 1fr;
@@ -220,7 +220,7 @@ h2 {
     }
 }
 
-/* Gallerie imgages */
+	/* Gallerie imgages */
 .grid {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);

@@ -138,7 +138,6 @@ header {
 }
 
 	/* MAIN TITRE*/
-
 #main .container {
 	max-width: 85%;
 }
@@ -158,7 +157,6 @@ header {
 }
 
 	/* MAIN TEXTE*/
-
 #main1 .preTexte {
 	margin-bottom: 40px;
 	font-size: 1.3rem;
@@ -172,7 +170,7 @@ header {
 	padding-bottom: 10px;
 	border: 1px solid #a10684;
 	margin-top: 10px;
-	margin-bottom: 60px;
+	
 }
 
 #main2 h3 {
@@ -192,6 +190,17 @@ header {
 	color: #a10684;
 	margin-right: 10px;
 	margin-left: 3px;
+}
+
+#main4 {
+	margin: 0;
+}
+
+#main4 .about {
+	font-size: 1.3rem;
+	text-align: center;
+	line-height: 40px;
+	padding: 40px 50px 0;
 }
 
 .ingredients {
@@ -216,7 +225,7 @@ header {
 #images2 img {
 	margin: 50px 0 0 0;
 	width: 60%;
-	margin: 0 auto 50px;
+	margin: 50px auto;
 	border: 1px solid #a10684;
 }
 
@@ -236,12 +245,9 @@ header {
 	box-shadow: rgba(0, 0, 0, 0.80) 0px 3px 25px 5px;
 }
 
-#main4 .about {
-	padding: 0 20px;
-	margin-top: 20px;
-	font-size: 1.3rem;
-	text-align: center;
-	line-height: 40px;
+#main4 .about-card {
+	width: 65%;
+	margin: 0 auto;
 }
 
 #main4 .gras {
@@ -265,7 +271,6 @@ header {
 }
 
    /* social */
-
 #social .center {
 	display: flex;
 	justify-content: center;
@@ -288,7 +293,7 @@ header {
 	width: 65px;
 	height: 65px;
 	border-radius: 50px;
-	margin: 30px;
+	margin: 10px 20px 20px;
 	transition: all .5s;
 }
 
@@ -302,11 +307,6 @@ header {
 	filter: drop-shadow(0 0 3px #1877f2);
 }
 
-.icon:nth-child(3) {
-	color: #ff3346;
-	filter: drop-shadow(0 0 3px #ff3346);
-}
-
 .icon:nth-child(1):hover {
 	box-shadow: 0 0 0 6px #a10684;
 }
@@ -315,10 +315,30 @@ header {
 	box-shadow: 0 0 0 6px #1877f2;
 }
 
-.icon:nth-child(3):hover {
-	box-shadow: 0 0 0 6px #ff3346;
+#main4 .avatar img {
+	border: 2px solid #a10684;
+	width: 25%;
+	height: auto;
+	margin: 30px auto 20px;
+    display: flex;
+    justify-content: center;
+	overflow: hidden;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+	background-size: cover;
+    animation: blob 4s linear infinite;
 }
 
+@keyframes blob {
+    0%, 100% {
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33% {
+        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
+}
 	/* FORMULAIRE */
 form {
 	max-width: 1000px;
@@ -356,28 +376,33 @@ form {
 }
 
 form .info {
-	text-align: center;
+	text-align: center; 
 	font-size: .8rem;
 	color: #616161;
 }
 
 	/* FOOTER */
+.footer {
+	padding: 10px 0 0;
+	text-align: center;
+}
+
+.section-title {
+	margin-bottom: 2px;
+}
+
+.section-title a {
+	text-decoration: none;
+}
 
 .coul {
 	color: #582900;
-}
+}  
 
-.footer i {
-	font-size: 40px;
-	margin: 20px 0 20px;
-	color: #5c340c;
-	height: 30px;
-}
-
-.footer i:hover {
-    font-size: 50px;
-    transition: 0.3s ease-in-out;
-    color: #a10684;
+.text1 {
+	margin-bottom: 3px;
+	font-size: .8rem;
+	color: #616161;
 }
 
 	/* VERSION DESKTOP */

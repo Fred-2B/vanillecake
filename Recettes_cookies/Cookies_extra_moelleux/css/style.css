@@ -254,7 +254,7 @@ header {
 }
 
 #main4 .about {
-	margin: 20px 30px 0;
+	margin: 20px 30px 10px;
 	font-size: 1.1rem;
 	text-align: center;
 	line-height: 40px;
@@ -267,13 +267,29 @@ header {
 	font-size: 1.5rem;
 }
 
-#main4 img {
-	border-radius: 100px;
-	width: 10%;
+#main4 .avatar img {
 	border: 2px solid #a10684;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	width: 15%;
+	height: auto;
+	margin: 20px auto 20px;
+    display: flex;
+    justify-content: center;
+	overflow: hidden;
+    border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+	background-size: cover;
+    animation: blob 4s linear infinite;
+}
+
+@keyframes blob {
+    0%, 100% {
+        border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+    }
+    33% {
+        border-radius: 42% 28% 48% 48% / 28% 28% 72% 72%;
+    }
+    66% {
+        border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+    }
 }
 
 	/* FORMULAIRE */
