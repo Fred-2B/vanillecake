@@ -15,3 +15,9 @@ slideIndex = 1;
 slides[slideIndex - 1].style.display = "block";
 setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
+
+// Lightbox Init
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });

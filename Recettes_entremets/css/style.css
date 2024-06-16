@@ -1,4 +1,8 @@
 /* Général */
+html {
+	scroll-behavior: smooth;
+}
+
 body { 
 	animation: fadeInAnimation ease 2s; 
 	animation-fill-mode: forwards; 
@@ -14,54 +18,54 @@ opacity: 1;
 } 
 }
 
-html {
-	scroll-behavior: smooth;
-}
-
 * {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	outline: none;
 }
 
+html, body {
+	height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
     background: #ffffff;
 	border-top: 8px solid #a10684;
 }
 
 	/* Header */
+/* Logo vanille Cake */
 #logo h1 {
-	text-align: center;
-	padding-bottom: 30px;
-	margin: 0;
-	background-color: #ece8ec;
-	border-bottom: 1px solid #c5c5c6;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+    background-color: #ece8ec;
+    border-bottom: 1px solid #c5c5c6;
 }
 
 .text-3d {
-	text-transform: uppercase;
-	font-size: 50px;
-	font-weight: 500;
-	color: #a10684;
-	letter-spacing: 10px;
-	text-shadow:
-		1px 1px #8b8a8a,
-		1px 2px #8b8a8a,
-		1px 3px #8b8a8a,
-		1px 4px #8b8a8a,
-		1px 5px #8b8a8a,
-		1px 6px #8b8a8a,
-		1px 7px #8b8a8a,
-		1px 8px #8b8a8a,
-		1px 9px #8b8a8a,
-		1px 10px 1px #8b8a8a,
-	1px 18px 6px #2d2d2d66,
-	1px 22px 10px #2d2d2d66,
-	1px 25px 35px #2d2d2d66,
-	1px 30px 60px #2d2d2d66;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    color: #a10684;
+    letter-spacing: 10px;
+    text-shadow:
+        1px 1px #8b8a8a,
+        1px 2px #8b8a8a,
+        1px 3px #8b8a8a,
+        1px 4px #8b8a8a,
+        1px 5px #8b8a8a,
+        1px 6px #8b8a8a,
+        1px 7px #8b8a8a,
+        1px 8px #8b8a8a,
+        1px 9px #8b8a8a,
+        1px 10px 1px #8b8a8a,
+    1px 18px 6px #2d2d2d66,
+    1px 22px 10px #2d2d2d66,
+    1px 25px 35px #2d2d2d66,
+    1px 30px 60px #2d2d2d66;
 }
 
 	/* NAV-BAR */
@@ -83,7 +87,6 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 	margin: 0 auto;
-
 }
 
 #navbarCollapse .nav-link:hover {
@@ -145,15 +148,15 @@ body {
 	font-family: 'Parisienne', cursive;
 }
 
-#main .grid {
-	max-width: 1200px;
-	width: 50%;
+#main .container-grille {
+	max-width: 450px;
+	width: 100%;
 	height: auto;
 	margin: 30px auto;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	justify-content: center;
-	gap: 80px;
+	gap: 10px;
 }
 
 .item {
@@ -168,10 +171,10 @@ body {
 	overflow: hidden;
 }
 
-#main .item-1 img {
+#main .grid-item img {
 	max-width: 100%;
 	width: 100%;
-	height: 50%;
+	height: 100%;
 	object-fit: cover;
 	object-position: 50% 50%;
 	cursor: pointer;
@@ -179,18 +182,7 @@ body {
 	border: 1px solid #000;
 }
 
-#main .item-2 img {
-	max-width: 100%;
-	width: 100%;
-	height: 80%;
-	object-fit: cover;
-	object-position: 50% 50%;
-	cursor: pointer;
-	transition: .4s ease-in-out;
-	border: 1px solid #000;
-}
-
-.item:hover img {
+.grid-item:hover img {
 	transform: scale(1.1);
 }
 
@@ -221,17 +213,9 @@ body {
 	text-align: center;
 }
 
-.item:hover .text {
-	opacity: 1;
-	animation: move-down .3s linear;
-	padding: 0.5em;
-	width: 100%;
-	text-align: center;
-}
-
-	/* SOCIAL */
+   /* social */
 #social {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 #social .center {
@@ -302,15 +286,12 @@ body {
 	color: #616161;
 }
 
-	/* VERSION DESKTOP */
+
+/* VERSION DESKTOP */
 @media screen and (min-width:1025px) {
 	.container {
 		max-width: 80%;
 		margin: 0 auto;
-	}
-
-	section {
-		
 	}
 
 	aside {
